@@ -1,0 +1,18 @@
+server:
+  port: 8081
+  tomcat:
+    connection-timeout: 120s
+
+#eureka:
+#  instance:
+#    hostname: localhost
+#    port: 8761
+#  client:
+#    registerWithEureka: true
+#    fetchRegistry: true
+#    serviceUrl:
+#      defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/
+
+spring:
+  application:
+    name: demo-boot
